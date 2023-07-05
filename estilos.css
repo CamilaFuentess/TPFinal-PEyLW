@@ -1,0 +1,1004 @@
+#contenedor { 
+    position: relative;
+    background-image: url(titulo.png);
+
+}
+
+.principalContenedor {
+    position: relative;
+}
+
+#contraContenedor { 
+    position: relative;
+    background-image: url(contra.jpg);
+    background-repeat: no-repeat;
+}
+
+/*////////////////////////////////////Navegador principal////////////////////////////*/ 
+.navegador { 
+    padding: 2px 20px 2px 20px;
+    margin: 0 0 10px 0;
+    text-align: left;
+    background-color: rgb(19, 19, 26);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    height: 84px;
+}
+
+.navegador li { 
+    display: inline;
+    margin-left: 10px;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.navegador li a {
+    padding: 2px;
+    margin: 10px;
+    color: azure;
+    background-color:rgb(19, 19, 26) ;
+    text-decoration: none;
+}
+
+
+.navegador li a .principal  {
+    margin-right: 20px;
+}
+
+.navegador li a:hover { 
+    color: rgb(255, 0, 0);
+}
+
+/*//////////////////////////////////////Estilo contenido principal /////////////////////////////*/ 
+.contenid0 {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 20px;
+    width: 54%;
+}
+.contenid0 p {
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    margin: 5px; 
+}
+
+.contenid0 img{
+    margin: 15px;
+}
+
+.contenido {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 15px 20px 30px 8%;
+    margin-right: 17px;
+    clear: none;
+    width: 54%;
+}
+
+.contenido p {
+    margin: 5px;
+    margin-right: 10px;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.contenido img  {
+    margin: 10px ;
+    padding: 6px;
+    border: 3px solid rgb(47, 13, 97);
+    border-radius: 2px;
+}
+
+/*//////////////////////////////////////estilos de titulos y parrafos////////////////////////*/ 
+.titulos { 
+    font-weight: bold;
+    color: #03313c ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3%;
+    border: solid;
+    border-width: 5px 5px 0 0 ;
+    border-color:  rgb(47, 13, 97);
+    padding: 15px;
+}
+
+.titulos h2 {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 3px ;
+    margin: 5px; 
+    padding: 10px;
+}
+
+h1{
+    font-weight: bold;
+    color: #03313c ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #03313c; 
+    text-align: center;
+}
+
+h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #03313c;
+    text-align: left;
+}
+
+h4{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #03313c;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    padding: 2px;
+    background-color:rgb(14, 13, 13);
+    color: #efefef;
+    width: 30px;
+}
+
+.contenido p {
+  height: auto;
+  color: #333;
+  padding: 10px;
+}
+
+a { 
+    text-decoration: none;
+    color: rgb(171, 15, 15);
+}
+
+.linea {
+    margin: 8px 0 10px 0 ;
+    background-color: rgb(171, 15, 15);
+    width: auto;
+    height: 3px;
+}
+
+th {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bloqueBlanco {
+    width: 10%;
+    height: 150%;
+    background-color: transparent;
+    margin: 30px 10px auto 0;
+    float: left;
+}
+
+td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#azul {
+    background-color: rgb(47, 13, 97);
+}
+
+#verdeagua {
+    background-color: #079f83;
+}
+
+#verde {
+    background-color: rgb(6, 71, 74);
+}
+
+#rojo {
+    background-color: red;
+}
+
+#naranja {
+    background-color: orange;
+}
+
+#celeste {
+    background-color: rgb(42, 154, 223);
+}
+
+#gris {
+    background-color: lightslategray;
+}
+
+.foto {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*//////////////////////////////Estilo del contenido secundario//////////////////////////*/ 
+.alCostado { 
+    float: right;
+    width: auto ;
+    height:auto;
+    display: inline;
+    margin-top: 14px; 
+    clear: both;
+}
+
+.ladoB {
+    float: right;
+    color: #333;
+    background-color: rgb(37, 35, 39);
+    margin: 18px 0px 30px 10px;
+    padding: 5px;
+}
+
+
+.ladoB h3 {
+    color: #f7f7f7; 
+    text-shadow: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/*////////////////////////////////////////Estilos de la pagina de equipos////////////////////////////////////*/ 
+
+#equipos {
+    border-radius: 9px;   
+    border-style: solid;
+    border-width: 5px 5px 0 0;
+    height: auto;
+    padding: 10px;
+}
+
+#ContenedorEquipos {
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.recipienteEquipo {
+  display: inline-block;  
+  padding: 5px;
+  margin: 10px 30px 20px 30px; 
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #323048;
+  border-width: 3px 3px 3px 0;
+  width: 400px;
+  height: 300px;
+}
+
+.nombreEquipo{
+    margin: 5px 0 5px 0;
+}
+
+.nombreEquipo h2 {
+    text-align: left;
+}
+
+.logo {
+    display: inline;
+    float: right;
+    padding: auto;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.auto {
+    display: block;
+    margin: 10px auto 10px auto;
+    background-color:antiquewhite;
+}
+
+.piloto1 {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 80px;
+}
+
+.banderaP1 {
+    display: inline;
+    float: right;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.piloto2 {
+    display: inline-block;
+}
+
+.banderaP2 {
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+/*////////////////////////////ESTILO DE LA PAGINA FECHAS /////////////////////////*/
+#calendario {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 8px  8px  0px 8px;
+    height: auto;
+    padding: 10px;
+}
+
+#contenedorFechas {
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    border-top-width: solid;
+    border-top-width: 10px;
+    border-color: grey;
+}
+
+.contenedor2 {
+    display: inline-block;
+    padding: 2px;
+    margin: 15px 10px 15px 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px  0px 3px 3px;
+    border-color: #333;
+    width: 250px;
+    height: 240px;
+}
+
+.fecha {
+    margin: 5px 0 5px 0;
+}
+
+.fecha h4 {
+    margin: 3px 0 2px;
+}
+
+.fecha h5 {
+    margin-bottom: 10px;
+    width: 60px;
+}
+
+.bandera{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.detalleCarrera {
+    margin: auto;
+    height: auto;
+}
+
+.detalleCarrera h4 {
+    margin: 4px 0 3px 0;
+}
+
+.detalleCarrera p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:smaller;
+    margin: 4px 0 3px 0;
+}
+
+.pista {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*///////////////////////Estilos de la pagina CAMPEONATO//////////////////////*/ 
+
+#contenedorCamp { 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+
+#CampeonatoLadoA {
+    display: inline;
+    float: left;
+    width: 45vw;
+    height: auto;
+}
+
+#CampeonatoLadoB {
+    display: inline;
+    float: right;
+    width: 45vw;
+    height: auto;
+}
+
+#CampEquipos table {
+    border: 3px solid rgb(171, 15, 15);
+    border-collapse: separate;
+    border-spacing: 13px;
+    margin: 20px auto 40px auto;
+    align-items: center;
+    width: 40vw;
+}
+
+
+#CampPilotos table {
+    border: 3px solid rgb(171, 15, 15);
+    border-collapse: separate;
+    border-spacing: 13px;
+    margin: 20px auto 40px auto;
+    align-items: center;
+    width: 40vw;
+}
+
+thead {
+    background-color: rgb(45, 49, 49);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    border: 2px solid rgb(171, 15, 15);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d7d5d5;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+/*//////////////////////////////////////ESTILO DE LA PAGINA DE TIENDA (FUNCIONALIDAD JAVASCRIPT)////////////////////////////////////*/
+header{ 
+    display: flex;
+    padding: 20px 0 30px 0;
+    justify-content: space-between;
+}
+
+.contenedorCabezaCarrito {
+    position: relative;
+}
+
+.imgCarrito {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.carro {
+    width: 39px;
+    height: 38px;
+}
+
+.carro:hover {
+    margin-bottom: 20px;
+    transition-duration: 5s;
+    cursor: pointer;
+}
+
+#contador-Productos {
+    position: absolute;
+    width: 10px;
+    margin: 0  0 30px 40px;
+    background-color: #ffffff;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    contain: paint;
+    width: 1491px;
+    padding: 10px;
+}
+
+.contenedor-Items { 
+    width: 80%;
+    height: auto;
+    margin: 15px; 
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    padding: 8px;
+    border: 2px solid rgb(47, 13, 97); 
+    border-radius: 15px;
+}
+
+.item:hover {
+    box-shadow: 0 20px 30px rgba(50, 50, 100, 0.2);
+}
+
+.fotoItem {
+    border-radius: 10px 10px 0 0;
+}
+
+.infoItem { 
+    margin: 0px;
+    margin: 3px 0 2px;
+    line-height: 2;
+    display: inline-block;
+}
+
+.agregarAlCarrito {
+    border: none;
+    background: none;
+    background-color:rgb(47, 13, 97);
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    margin: 0 auto ;
+    width: 60%;
+    margin-left: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregarAlCarrito:hover {
+    color: rgb(47, 13, 97);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(47, 13, 97) ;
+    border-radius: 5px;
+    text-shadow: #333;
+}
+
+.cartaProductos {
+    border: 2px solid rgb(47, 13, 97);
+    width: 25%;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 35px -100% auto auto;
+
+}
+
+#cabeza-carro {
+    background-color: rgb(47, 13, 97);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#cabeza-carro h2 {
+    color: #fff;
+}
+
+.cartaDeProductos {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid rgb(47, 13, 97);
+    padding: 20px;
+}
+
+.cartaDeProductos img {
+    margin-right: 20px;
+}
+
+.tituloProducto {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Cantidad {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.cantidad-Item{
+    border:none;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    width: 34px;
+    padding: 6px;
+    text-align: center;
+}
+
+.Cantidad i {
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px solid rgb(47, 13, 97);
+}
+
+.precioProducto {
+    font-weight: bold;
+    display:block;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.eliminar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #000;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    background-image: url(tachoBasura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.eliminar i {
+    pointer-events: none;
+   
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pagar {
+    width: 50%;
+    border: none;
+    background-color: rgb(19, 19, 26);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+/*//////////////////////////////////Estilos de la pagina contacto/////////////////////////*/ 
+
+#bloqueContacto {
+    width: 60vw;
+    height: auto;
+    border-color: rgb(87, 1, 1);
+    border-style: dashed;
+    border-width: 0 3px 0 0 ;
+    margin: 40px;
+    padding: 15px;
+    float: left;
+    clear: both;
+}
+
+#cont {
+    margin: 20px;
+    padding: 20px;
+    border: 0 solid  rgb(47, 13, 97);
+    border-width: 0 2px 2px 0;
+}
+
+/*//////////////////////////////Estilos de la pagina iniciar ssesion///////////////////////*/ 
+
+.paginasExtras { 
+    padding: 2px 20px 2px 20px;
+    margin: 0 0 10px 0;
+    text-align: left;
+    background-color: rgb(19, 19, 26);
+    height: 80px;
+    font-family: lucida sans", tahoma, "Trebuchet MS", arial, verdana, sans-serif";
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#contenedorSesion { 
+    margin-top: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #555;
+    background-color: rgb(223, 222, 240);
+    width: 400px;
+    height: 420px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#contenedorSesion input { 
+    border-radius: 5px;
+    margin: 0;
+    height: 30px;
+    padding: 0;
+    
+}
+
+.eleccionSesion { 
+    display: grid;
+    place-items: center;
+    margin: 0;
+    color:rgb(213, 210, 210);
+    background-color: #323048;
+    margin-top: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.eleccionSesion li { 
+    display: inline;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.eleccionSesion li a { 
+    display: inline;
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.eleccionSesion li a:visited { 
+    list-style: none;
+    color: #f7f7f7;
+
+}
+
+.eleccionSesion li a:hover { 
+    list-style: none;
+    text-decoration: none;
+    color: rgb(171, 15, 15);
+}
+
+
+/*//////////////////////Estilo de la pagina contrasena/////////////////////////*/
+#contrasena {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(213, 210, 210);
+    width: 800px;
+    height: 350px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(171, 15, 15);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#contrasena input {
+    border-radius: 3px;
+    height: 30px;
+}
+
+#volverInicioSesion {
+    color: rgb(45, 49, 49);
+    float: right;
+}
+#volverIniciarSesion a {
+    text-decoration: none;
+}
+#volverIniciarSesion a:visited {
+    text-decoration: none;
+    color: rgb(56, 61, 61);
+}
+
+#volverIniciarSesion a:hover { 
+    text-decoration: none;
+    color: rgb(171, 15, 15);
+}
+
+/*/////////////////////////////////////Estilo de Registrarse/////////////////////////////////*/
+#contenedorRegistrarse { 
+    border-style: solid;
+    background-color: rgb(223, 222, 240);
+    width: 500px;
+    height: 700px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 10px;
+    align-content: flex-start;
+}
+
+#contenedorRegistrarse input { 
+    height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: 0 solid none;
+}
+
+
+#paises option { 
+    border-radius: 5px;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedorRegistrarse select { 
+    border-radius: 5px;
+    height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dia {
+    display: inline;
+    width: 60px;
+    gap: 10px;
+}
+
+#mes {
+    display: inline;
+    width: 60px;
+    gap: 10px;
+}
+
+#anio{
+    display: inline;
+    width: 60px;
+    gap: 10px;
+}
+
+
+/*///////////////////Estilos de distintos tipos de elementos para decorar las paginas/////////////////////////////*/ 
+
+
+.links { 
+    color: rgb(14, 13, 13);
+    list-style: none;
+    padding-top: 5px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: rgb(160, 152, 152);
+    text-decoration: none;
+}
+
+.links li { 
+    display: inline;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.links a:hover { 
+    text-decoration: none;
+    color: rgb(171, 15, 15);
+}
+
+.cuadroExtra {
+    margin: 30px;
+    padding: 5px;
+    width: 145px;
+    height: 45px;
+    color: rgb(155, 152, 152);
+    border-style: solid;
+    border-color: rgb(155, 152, 152);
+    display: block; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 15px;
+    float: right;
+}
+
+.cuadroExtra a {
+    color: rgb(155, 152, 152);
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.circuloEsquina { 
+    background-color: transparent;
+    border-radius: 50% ;
+    border-style: solid;
+    border-color: #323048;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 40px;
+}
+
+.logoEsquina img{
+    border-radius: 50%;
+}
+
+.bloque { 
+    border: 3px solid rgb(47, 13, 97);
+    width: 40vw;
+    height: 52%;
+    margin: auto;
+    display: inline;
+    float: left;
+    margin:  10px 25px 40px 35px;
+    align-items: center;
+    background-color: rgb(171, 15, 15);
+}
+
+/*////////////////////////////////Botones//////////////////////////////*/ 
+
+#botonEnviar { 
+    background-color: rgb(171, 15, 15);
+    color: azure;
+    width: 80px;
+    float: right;
+}
+
+#botonResetear {
+    background-color: rgb(171, 15, 15);
+    color: azure;
+    width: 80px;
+    height: 30px;
+    float: right;
+    padding: 20px;
+}
+
+.irInicio { 
+    border: 3px solid black;
+}
+
+.irArriba {
+    border: 3px solid black;
+}
+
+/*/////////////////////////////////Pies de paginas///////////////////////// */ 
+
+.pie { 
+    display: block;
+    clear: both;
+    margin-top: 150px;
+    background-color: rgb(19, 19, 26);
+    color: azure;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 0;
+    height: 200px;
+    z-index: 3;
+} 
+
+.pie a {
+    margin: 10px;
+    color: azure;
+    background-color: rgb(19, 19, 26);
+    text-decoration: none;
+}
+
+.pie a:hover {
+    background-color: rgb(19, 19, 26);;
+    color: rgb(171, 15, 15);
+}
+
+.piePaginasExtras { 
+    height: 200px;
+    background-color: rgb(19, 19, 26);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 15px;
+    color: azure;
+    margin-top: 60px;
+    display: block;
+    clear: both;
+    z-index: 3;
+}
+

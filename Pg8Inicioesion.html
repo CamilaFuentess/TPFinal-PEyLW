@@ -1,0 +1,62 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
+        <script type="text/javascript" src="formulario.js"> </script>
+    </head>
+    <body> 
+        <div id="contenedor"> 
+            <div class="paginasExtras"> 
+                <a href="pg1Inicio.html">
+                <img alt="F1Logo" src="imagenes\F1Logo1.jpg" width="100px" height="80px" />
+                </a>
+            </div>
+            <div class="eleccionSesion"> 
+                <ul> 
+                    <li> <a href="Pg8Inicioesion.html"> Iniciar Sesion</a></li> 
+                    <li> <a href="pg9Registrate.html"> Registrate</a> </li>
+                </ul>
+            </div>
+            <br>
+            <div id="contenedorSesion"> 
+                <form> 
+                    <h3> Inicia sesion</h3>
+                    <hr size="2"> 
+                    <p > Ingrese su nombre de usuario: </p> 
+                    <input type="text" maxlength="25" id="usuario">
+                    <br>
+                    <br>
+                    <p> Contraseña: </p> 
+                    <input type="password"  id="contra">
+                    <p class="links"><a href="pg10Contraseña.html"> Olvidaste tu contraseña?</a></p>
+                    <br>
+
+
+                    <input type="submit"  id="botonResetear" value="Enviar" onclick="return validarIngreso()"> 
+
+                </form>
+                <p class="links">No tenes cuenta? <a href="pg9Registrate.html"> Registrate </a></p>
+            </div>
+            <div class="piePaginasExtras"> 
+                <ul class="links"> 
+                    <li><a href="#"> Aviso de publicidad </a></li>
+                    <li> <a href="#">Politica de Cookies</a></li>
+                    <li> <a href="#"> Aviso Legal </a> </li>
+                    <li> <a href="#"> Sitemap</a> </li>
+                </ul>
+                <br> 
+                <div class="cuadroExtra">
+                   <p> <a href="#"> Eleccion de Cookies</a> </p>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var form = document.getElementById('contenedorSesion');
+              form.addEventListener('submit', function(event) {
+                event.preventDefault();
+              });
+            });
+          </script>
+    </body>
+</html>

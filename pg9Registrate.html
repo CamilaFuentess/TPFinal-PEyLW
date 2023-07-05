@@ -1,0 +1,112 @@
+<html> 
+    <head> 
+        <link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
+        <script type="text/javascript" src="formulario.js"> </script>
+    </head>
+    <body> 
+        <div id="contenedor"> 
+            <div class="paginasExtras"> 
+                <a href="pg1Inicio.html">
+                <img alt="F1Logo" src="imagenes\F1Logo1.jpg" width="100px" height="80px" />
+                </a>
+            </div>
+            <div class="eleccionSesion"> 
+                <ul> 
+                    <li> <a href="Pg8Inicioesion.html"> Iniciar Sesion</a></li> 
+                    <li> <a href="pg9Registrate.html"> Registrate</a> </li>
+                </ul>
+            </div>
+            <br>
+            <div id="contenedorRegistrarse"> 
+                <form> 
+                    <h3> Registrate </h3>
+                    <hr color="grey" size="1"/> 
+                    <p> Nombre </p> <input type="text" placeholder="Ej: Juan" id="nombre"> 
+                    <p> Apellido: </p> <input type="text" placeholder="Ej: Perez" id="apellido"> 
+                    <p> Fecha de nacimiento </p> 
+                    <input type="text" id="dia" name="dia" placeholder="D&iacute;a" >  
+                    <input type="text" id="mes" name="mes" placeholder="Mes" > 
+                    <input type="text" id="anio" name="anio" placeholder="A&ntilde;o" >
+                    <p> Pais de residencia: </p>
+                    <select name="pais" id="paises">
+                        <option> Seleccionar</option>
+                        <option> Albania</option> 
+                        <option > Argentina </option>
+                        <option> Afghanistan</option> 
+                        <option> Armenia</option>
+                        <option> Australia</option>
+                        <option> Alemania</option>
+                        <option> Brasil</option>
+                        <option> Bolivia</option>
+                        <option> Belgica </option>
+                        <option> Brasil </option>
+                        <option> Canada </option>
+                        <option> Costa Rica </option>
+                        <option> Chile</option>
+                        <option> China</option>
+                        <option> Colombia </option>
+                        <option> Corea del Sur </option> 
+                        <option> Cuba</option>
+                        <option> Dinamarca</option> 
+                        <option> Estados Unidos</option>
+                        <option> Ecuador</option>
+                        <option> El Salvador</option>
+                        <option> España</option>
+                        <option> Egipto</option>
+                        <option> Francia</option>
+                        <option> Finlandia </option>
+                        <option> Gran Bretaña</option>
+                        <option> Grecia</option>
+                        <option> Guatemala</option>
+                        <option> Guayana-Francesa</option>
+                        <option> Honduras</option>
+                        <option> Italia</option>
+                        <option> Jamaica </option>
+                        <option> Japon</option>
+                        <option> Mexico </option>
+                        <option> Nigeria</option>
+                        <option> Uruguay</option>
+                        <option> Paraguay</option>
+                        <option> Panama</option>
+                        <option> Portugal </option> 
+                        <option> Peru</option>
+                        <option> Puerto Rico </option>
+                        <option> Republica Dominicana</option>
+                        <option> Russia</option>
+                        <option> Romania</option>
+                        <option> Sudafrica</option> 
+                        <option> Venezuela </option>
+                    </select>
+                    <p> Direccion de correo </p><input type="text" placeholder="nombre@gmail.com" id="correo">
+                    <p> Contraseña</p>  <input type="password" maxlength="20" minlength="8" id="contra"> <br>
+                    <br> 
+                    <input type="checkbox" id="terminos"> Acepto los terminos y condiciones 
+                    <br>
+                    <br>
+                    <input type="submit"  id="botonEnviar" onclick="return validarRegistro()" value="Enviar">
+                </form> 
+            </div>
+
+            <div class="piePaginasExtras"> 
+                <ul class="links"> 
+                    <li><a href="#"> Aviso de publicidad </a></li>
+                    <li> <a href="#">Politica de Cookies</a></li>
+                    <li> <a href="#"> Aviso Legal </a> </li>
+                    <li> <a href="#"> Sitemap</a> </li>
+                </ul>
+                <br> 
+                <div class="cuadroExtra">
+                   <p> <a href="#"> Eleccion de Cookies</a> </p>
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var form = document.getElementById('contenedorRegistrarse');
+                  form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                  });
+                });
+              </script>
+        </div>
+    </body>
+</html>
